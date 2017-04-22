@@ -2,21 +2,18 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class WinSet : Set {
+public class SpikeDodgeSet : Set
+{
 
 	// Use this for initialization
-	void Start () {
+	void Start ()
+	{
 		
 	}
 	
 	// Update is called once per frame
-	void Update () {
-		
-	}
-
-	public void OnPlayAgainClicked()
+	void Update ()
 	{
-		CloseSet();
-		SetManager.OpenSet<MainMenuSet>();
+		
 	}
 }
